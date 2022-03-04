@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rotation Login-Page</title>
+    <link rel="stylesheet" href="css/master.css" />
+  </head>
+  <body>
+    <input type="radio" id="chk1" style="display: none;">
+    <div class="container">
+      <div class="box" id="v">
+        <div class="front">
+           
+    <div class="one">
+      <h2>Login</h2>
+    <div class="w">
+      <a id="l" onclick="rotate('')"  href="#"target="blank"title="Go To Facebook Page"><button><b class="n">Facebook</b></button></a>
+      <a id="l" onclick="rotate('')" href="#"target="blank"title="Go To Facebook Page"><button><b class="n">google</b></button></a>
+    
+    </div>
+      <br>
+      <form>
+        
+      <div class="user">
+        <input id="m" type="text" placeholder="username">
+        </div>
+        <div class="pass">
+      
+        <br>
+        <input id="m" type="password"  placeholder="password">
+        </div>
+        
+        <button id="n" onclick="rotate('')">login</button>
+        
+      </form>
+      
+      <script>
+        function rotate() {
+          var box = document.getElementById('v');
+            box.style.transform = ' translateX(-100%) rotateY(-180deg)';
+        }
+    </script>
+    </div>
+        </div>
+        <div class="back">Welcome </div>
+      </div>
+    </div>
+  </body>
+</html>
